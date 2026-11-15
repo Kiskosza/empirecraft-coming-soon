@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmpireCraft | Hamarosan</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background: radial-gradient(circle, #252525 0%, #080808 75%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            padding: 30px;
+        }
+
+        .logo {
+            width: 350px;
+            max-width: 90%;
+            filter: drop-shadow(0 0 25px rgba(255, 174, 0, 0.4));
+            animation: float 4s ease-in-out infinite;
+        }
+
+        h1 {
+            color: #FFD700;
+            font-size: 45px;
+            letter-spacing: 6px;
+            margin-top: 25px;
+            text-shadow: 0 0 20px #ffae00;
+        }
+
+        p {
+            color: #cccccc;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .line {
+            width: 200px;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, #FFD700, transparent);
+            margin: 25px auto;
+        }
+
+        .badge {
+            color: #FFD700;
+            letter-spacing: 5px;
+            font-size: 13px;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 30px;
+                letter-spacing: 3px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <img src="ec.webp" class="logo" alt="EmpireCraft Logo">
+
+        <div class="line"></div>
+
+        <h1>HAMAROSAN...</h1>
+
+        <p>A birodalom hamarosan életre kel.</p>
+
+        <div class="line"></div>
+
+        <div class="badge">EMPIRECRAFT • COMING SOON</div>
+
+    </div>
+</body>
+</html>
